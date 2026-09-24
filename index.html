@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ff6f91">
+<title>Spandan — My Guddi ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap');
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Poppins,Arial,sans-serif;color:#3e2a32;background:linear-gradient(#fff7fa,#fff,#fff5f8);overflow-x:hidden}
+.container{width:min(1050px,92%);margin:auto}.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:60px 18px;background:radial-gradient(circle at 15% 20%,#ffd7e3,transparent 25%),radial-gradient(circle at 85% 30%,#ffe8ef,transparent 25%)} 
+.badge{display:inline-block;padding:8px 16px;border:1px solid #ffc4d3;border-radius:999px;color:#d65378;background:#fff8fb;font-size:13px}
+h1{font:700 clamp(4rem,15vw,8rem)/.9 "Dancing Script",cursive;color:#e95478;margin:22px 0 8px}.hero h2{font-size:clamp(20px,4vw,32px);font-weight:500}.hero p{max-width:680px;margin:18px auto;line-height:1.8;color:#6e5961}
+.btn{display:inline-block;margin-top:12px;padding:13px 22px;border-radius:999px;text-decoration:none;color:#fff;background:#e95478;box-shadow:0 10px 25px #e9547833}
+.section{padding:75px 0}.section-title{text-align:center;font:600 48px "Dancing Script",cursive;color:#d94d71;margin:0 0 10px}.section-sub{text-align:center;color:#806c74;max-width:700px;margin:0 auto 35px;line-height:1.7}
+.card{background:#ffffffdd;border:1px solid #ffd8e2;border-radius:28px;padding:25px;box-shadow:0 15px 40px #c94f7020}.count-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}.count-box{background:#fff2f6;border-radius:20px;padding:16px 8px;text-align:center}.count-box strong{display:block;font-size:29px;color:#df5376}.count-box span{font-size:11px;color:#856b74;text-transform:uppercase;letter-spacing:1px}
+.special{background:linear-gradient(135deg,#fff0f5,#fff8fb);text-align:center}.quote{font:600 clamp(30px,7vw,52px)/1.2 "Dancing Script",cursive;color:#c43f64;margin:20px auto;max-width:850px}
+.timeline{display:grid;gap:18px}.memory{display:grid;grid-template-columns:100px 1fr;gap:18px}.date{background:#e95478;color:#fff;border-radius:18px;padding:12px 8px;text-align:center;font-size:12px;font-weight:600}.memory h3{color:#bf3f62;margin:0 0 6px}.memory p,.letter p{color:#725f66;line-height:1.8}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.photo{overflow:hidden;border-radius:22px;border:5px solid #fff;box-shadow:0 10px 30px #c94f7025;aspect-ratio:4/5}.photo img{width:100%;height:100%;object-fit:cover;display:block;transition:.5s}.photo:hover img{transform:scale(1.05)}
+.letter{max-width:800px;margin:auto}.signature{text-align:right;font:600 34px "Dancing Script",cursive;color:#df5376;margin-top:22px}.promise{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.promise .card{text-align:center}.emoji{font-size:34px}
+footer{text-align:center;padding:45px 20px;color:#8a7079;font-size:13px}footer b{color:#d84e72}.heart{position:fixed;bottom:-30px;font-size:18px;opacity:.75;animation:float 7s linear;pointer-events:none;z-index:5}@keyframes float{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+@media(max-width:760px){.count-grid{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}.promise{grid-template-columns:1fr}.memory{grid-template-columns:78px 1fr}.section{padding:58px 0}}
+@media(max-width:430px){.card{padding:19px}.memory{grid-template-columns:1fr}.date{width:max-content}}
+</style>
+</head>
+<body>
+<header class="hero"><div>
+<span class="badge">A tiny corner of the internet, made only for you ♡</span>
+<h1>Spandan</h1><h2>My Guddi ❤️</h2>
+<p>Kuch log zindagi mein aate hain… aur phir zindagi thodi si zyada khoobsurat lagne lagti hai. Mere liye woh tum ho. Ye website hamari chhoti si love story hai.</p>
+<a class="btn" href="#story">Hamari story ↓</a>
+</div></header>
+
+<main id="story">
+<section class="section"><div class="container">
+<h2 class="section-title">Our Little Forever ♡</h2><p class="section-sub">04 June 2023 se ek khoobsurat journey… aur har saal tumhare saath ek aur chapter.</p>
+<div class="card"><h3 style="text-align:center;color:#c94164">Next Anniversary</h3>
+<div class="count-grid" id="annivCount"><div class="count-box"><strong>--</strong><span>Days</span></div><div class="count-box"><strong>--</strong><span>Hours</span></div><div class="count-box"><strong>--</strong><span>Minutes</span></div><div class="count-box"><strong>--</strong><span>Seconds</span></div></div>
+<p id="together" style="text-align:center;color:#7a626b"></p></div>
+</div></section>
+
+<section class="section"><div class="container">
+<h2 class="section-title">Her Special Day 🎂</h2><p class="section-sub">27 July — because the world got a little brighter on this day.</p>
+<div class="card"><div class="count-grid" id="bdayCount"><div class="count-box"><strong>--</strong><span>Days</span></div><div class="count-box"><strong>--</strong><span>Hours</span></div><div class="count-box"><strong>--</strong><span>Minutes</span></div><div class="count-box"><strong>--</strong><span>Seconds</span></div></div>
+<p style="text-align:center;color:#7a626b">Happy birthday, meri Guddi. ❤️</p></div>
+</div></section>
+
+<section class="section special"><div class="container">
+<h2 class="section-title">15 • 02 • 2026</h2><p class="section-sub">Mahashivratri — but for me, the most special part of that day was simply having you beside me.</p>
+<div class="card"><div class="quote">“Mere liye isme special Mahashivratri nahi… tum thi. ❤️”</div><p style="color:#745c65;line-height:1.8">Us din ki yaad calendar ki ek date se zyada hai. Kuch moments explain nahi hote—bas dil mein quietly save ho jaate hain. Ye unhi moments mein se ek hai.</p></div>
+</div></section>
+
+<section class="section"><div class="container">
+<h2 class="section-title">Little Things I Love About Us</h2><p class="section-sub">Hamari story perfect isliye nahi hai kyunki sab kuch perfect hai… balki isliye kyunki hum ek-doosre ko choose karte hain. ❤️</p>
+<div class="timeline">
+<div class="card memory"><div class="date">04<br>JUNE<br>2023</div><div><h3>The Beginning 🌷</h3><p>Ek date jo ab sirf date nahi rahi. Ye woh din hai jahan se “main” aur “tum” dheere-dheere “hum” banne lage.</p></div></div>
+<div class="card memory"><div class="date">US<br>♡</div><div><h3>The Comfort</h3><p>Tumhare saath woh wali feeling milti hai jahan bina zyada explain kiye bhi dil samajh liya jaata hai.</p></div></div>
+<div class="card memory"><div class="date">SMILE<br>♡</div><div><h3>Your Smile</h3><p>Tumhari smile ka koi official cure nahi hai… aur honestly, mujhe cure bhi nahi chahiye. 😌❤️</p></div></div>
+<div class="card memory"><div class="date">ALWAYS<br>♡</div><div><h3>My Favourite Person</h3><p>Chahe din acha ho ya thoda weird, tumhare saath share karne ka mann sabse pehle karta hai. Bas itna hi kaafi hai.</p></div></div>
+</div></div></section>
+
+<section class="section"><div class="container">
+<h2 class="section-title">Some Beautiful Versions of You 📸</h2><p class="section-sub">Har photo mein tum alag lagti ho, but meri favourite cheez same hai — <b>tum.</b></p>
+<div class="gallery"><div class="photo"><img src="photo1.jpg" alt="A special memory"></div></div><div class="photo"><img src="photo2.jpg" alt="A memory"></div><div class="photo"><img src="photo3.jpg" alt="A memory"></div><div class="photo"><img src="photo4.jpg" alt="A memory"></div></div>
+</div></section>
+
+<section class="section"><div class="container">
+<h2 class="section-title">A Letter For My Guddi 💌</h2>
+<div class="card letter">
+<p>Dear Guddi,</p>
+<p>Kabhi-kabhi sochta hoon ki ek insaan kisi doosre ki life ko itna special kaise bana sakta hai. Phir tum yaad aati ho… aur answer saamne hota hai. ❤️</p>
+<p>Mujhe tumhari sirf cute smile ya pretty face pasand nahi. Mujhe tumhari woh chhoti-chhoti baatein pasand hain jo shayad tum khud notice bhi nahi karti. Tumhara hona, tumhara care karna, tumhara apne way mein mujhe samajhna — ye sab mere liye bahut precious hai.</p>
+<p>Main future ke har moment ka promise nahi kar sakta, lekin itna zaroor keh sakta hoon: jab tak hum saath hain, main hamari story ko lightly nahi lunga. Main memories banana, tumhe smile karwana aur ordinary days ko bhi special banana chahta hoon.</p>
+<p>Aur haan… agar kabhi duniya bahut noisy lage na, toh bas yaad rakhna — kahin na kahin ek pagal insaan hai jiske liye tum “special” word ka meaning ho. 🫶</p>
+<div class="signature">Forever yours,<br>❤️</div>
+</div></div></section>
+
+<section class="section"><div class="container">
+<h2 class="section-title">Three Tiny Promises 🌙</h2><div class="promise">
+<div class="card"><div class="emoji">🫶</div><h3>Listen</h3><p>Tumhari baat important hai—even the little ones.</p></div>
+<div class="card"><div class="emoji">🌷</div><h3>Choose</h3><p>Har naye chapter mein, phir se tumhe choose karna.</p></div>
+<div class="card"><div class="emoji">✨</div><h3>Make Memories</h3><p>Photos se zyada, moments collect karna.</p></div>
+</div></div></section>
+</main>
+
+<footer>Made with too much love for <b>Spandan (Guddi)</b> ♡<br>04.06.2023 → always a little more love.</footer>
+
+<script>
+const startDate=new Date("2023-06-04T00:00:00");
+function nextDate(month,day){const n=new Date();let d=new Date(n.getFullYear(),month,day);if(d<=n)d=new Date(n.getFullYear()+1,month,day);return d}
+function update(id,target){let x=Math.max(0,target-new Date());const vals=[Math.floor(x/86400000)];x%=86400000;vals.push(Math.floor(x/3600000));x%=3600000;vals.push(Math.floor(x/60000));x%=60000;vals.push(Math.floor(x/1000));document.querySelectorAll("#"+id+" strong").forEach((e,i)=>e.textContent=String(vals[i]).padStart(2,"0"))}
+function tick(){update("annivCount",nextDate(5,4));update("bdayCount",nextDate(6,27));let n=new Date(),y=n.getFullYear()-2023;if(n<new Date(n.getFullYear(),5,4))y--;let last=new Date(2023+Math.max(y,0),5,4);let days=Math.floor((n-last)/86400000);document.getElementById("together").textContent=`${Math.max(y,0)} year${y===1?"":"s"} together • ${Math.max(days,0)} days since our last anniversary ✨`}
+tick();setInterval(tick,1000);
+setInterval(()=>{let h=document.createElement("div");h.className="heart";h.textContent=["♥","♡","❤","💗"][Math.floor(Math.random()*4)];h.style.left=Math.random()*100+"vw";h.style.animationDuration=5+Math.random()*5+"s";document.body.appendChild(h);setTimeout(()=>h.remove(),10000)},900);
+</script>
+</body></html>
